@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --background-color :    #0f172a;
+    --font-color : #7dd3fc;
+    --header-background : #334155;
+}
+body{
+    color : var(--font-color);
+    background-color: var(--background-color);
+    font-family: 'Montserrat', sans-serif;
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+header { 
+    margin: 0px;
+    background-color: var(--header-background);
+    border-bottom-right-radius: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: left;
+}
+.header-link {
+    list-style: none;
+   
+}
+li{
+    display: inline;
+    padding: 0rem 0.5rem;
+    text-decoration: none;
+    
+}
+li a{
+    color :  color: var(--font-color);
+    text-decoration: none;
+}
+h1{
+   text-align: center;
+   padding-bottom: 2rem;
+}
+.container{
+    width : 50%;
+    padding-top: 1rem;
+    margin: auto;
+    text-align: center;
+}
+.angle-input{
+    width: 60%;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0%;
+}
+.container .angle-inputl{
+    margin-bottom: 0%;
+    font-size: small;
+}
+button{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--font-color);
+    background: transparent;
+    color: var(--font-color);
+    border-radius: 0.3rem;
+    font-size: large;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.output{
+    font-size: large;
+    color: white;
+    font-weight: 300;
+}
+
+/* Quiz */
+
+section{
+    border: 1px solid var(--font-color);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    color: white;
+}
+.output-score{
+    font-size: large;
+    color: white;
+    font-weight: 300;
+}
+
+/* Hypotenuse */
+
+.formula{
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+    border: 1px solid var(--font-color);
+    border-radius: 0.5rem;
+    width: 60%;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+}
+.inputs{
+    width: 60%;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0%;
+}
+.label{
+   margin: 0%;
+}
