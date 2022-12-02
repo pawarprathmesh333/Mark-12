@@ -7,7 +7,7 @@ function calculateSumSqr(a, b){
 }
 
 function calculateHypotenuse(){
-    if(inputs[0].value&&inputs[1].value){
+    if(Number(inputs[0].value)&&Number(inputs[1].value)){
         const sum = calculateSumSqr(Number(inputs[0].value), Number(inputs[1].value));
         const hypotenuse = Math.sqrt(sum);
         output.innerText = "The length of the hypotenuse is "+hypotenuse+" cm";
