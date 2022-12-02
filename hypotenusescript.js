@@ -12,7 +12,7 @@ function calculateHypotenuse(){
         const hypotenuse = Math.sqrt(sum);
         output.innerText = "The length of the hypotenuse is "+hypotenuse+" cm";
     }else{
-        output.innerText = "Please enter both inputs";
+        output.innerText = "Please enter both non zero inputs";
     }
 
 }

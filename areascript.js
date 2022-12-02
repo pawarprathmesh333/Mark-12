@@ -9,7 +9,7 @@ function calculateArea(){
         const area = (Number(inputs[0].value)*Number(inputs[1].value))/2;
         output.innerText = "The area of the triangle is "+area+" cm²";
     }else{
-        output.innerText = "Please enter both inputs";
+        output.innerText = "Please enter both non zero inputs";
     }
 
 }
