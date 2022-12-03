@@ -4,7 +4,7 @@ const outputEl = document.querySelector(".output");
 
 
 function checkisTriangle(){
-    if(Number(angles[0].value)&&Number(angles[1].value)&&Number(angles[2].value)){
+    if(Number(angles[0].value)>0&&Number(angles[1].value)>0&&Number(angles[2].value)>0){
         const sumAngles = Number(angles[0].value)+Number(angles[1].value)+Number(angles[2].value);
         if(sumAngles===180){
             outputEl.innerText = "Yayy, the angles form a triangle";
@@ -13,7 +13,7 @@ function checkisTriangle(){
         }
     }
     else{
-        outputEl.innerText = "All angles should have Non-zero value";
+        outputEl.innerText = "All angles should have Non-zero positive value";
     }
 }
 
